@@ -32,8 +32,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('pong');
+  if(message.content == '!김토끼') {
+    return message.reply('펀,쿨,섹시한 우리만의 수장님.운 아주 좋으면 토끼의 얼굴을 볼수도...?');
   }
 
   if(message.content == 'embed') {
@@ -51,7 +51,7 @@ client.on('message', (message) => {
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
       .addBlankField()
       .setTimestamp()
-      .setFooter('나긋해가 만듬', img)
+      .setFooter('14민수가 만듬', img)
 
     message.channel.send(embed)
   } else if(message.content == 'help') {
