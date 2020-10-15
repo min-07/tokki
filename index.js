@@ -41,7 +41,7 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
-      .setAuthor('나긋해', img, 'http://www.naver.com')
+      .setAuthor('14민수', img, 'http://www.naver.com')
       .setThumbnail(img)
       .addBlankField()
       .addField('Inline field title', 'Some value here')
@@ -55,7 +55,7 @@ client.on('message', (message) => {
 
     message.channel.send(embed)
   } else if(message.content == 'help') {
-    let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
+    let helpImg = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let commandList = [
       {name: 'ping', desc: '현재 핑 상태'},
       {name: 'embed', desc: 'embed 예제1'},
