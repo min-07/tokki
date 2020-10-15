@@ -36,7 +36,7 @@ client.on('message', (message) => {
     return message.reply('펀,쿨,섹시한 우리만의 수장님이자 디코최고 존잘남!그리고 옷 좋아함ㅋㅋㄹ');
   }
 
-  if(message.content == 'embed') {
+  if(message.content == '!도와줘') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
@@ -44,11 +44,11 @@ client.on('message', (message) => {
       .setAuthor('14민수', img, 'http://www.naver.com')
       .setThumbnail(img)
       .addBlankField()
-      .addField('Inline field title', 'Some value here')
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+      .addField('김토끼 나이', '17세')
+      .addField('싫어하는것', '조르기,구걸,도배', true)
+      .addField('좋아하는것', '옷', true)
+      
+      .addField('주면 좋아하는거', '거의다')
       .addBlankField()
       .setTimestamp()
       .setFooter('14민수가 만듬', img)
