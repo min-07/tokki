@@ -33,7 +33,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!김토끼') {
-    return message.reply('펀,쿨,섹시한 우리만의 수장님.운 아주 좋으면 토끼의 얼굴을 볼수도..?');
+    return message.reply('펀,쿨,섹시한 우리만의 수장님이자 디코최고 존잘남!그리고 옷 좋아함ㅋㅋㄹ');
   }
 
   if(message.content == 'embed') {
