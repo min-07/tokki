@@ -51,7 +51,7 @@ client.on('message', (message) => {
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
       .addBlankField()
       .setTimestamp()
-      .setFooter('14민수가 만듬', img)
+      .setFooter('14민수가 만들었음', img)
 
     message.channel.send(embed)
   } else if(message.content == 'help') {
