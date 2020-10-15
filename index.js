@@ -37,7 +37,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == 'embed') {
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
+    let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
       .setURL('http://www.naver.com')
@@ -51,7 +51,7 @@ client.on('message', (message) => {
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
       .addBlankField()
       .setTimestamp()
-      .setFooter('14민수가 만들었음', img)
+      .setFooter('14민수가 만들', img)
 
     message.channel.send(embed)
   } else if(message.content == 'help') {
