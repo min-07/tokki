@@ -35,7 +35,9 @@ client.on('message', (message) => {
   if(message.content == '!김토끼') {
     return message.reply('펀,쿨,섹시한 우리만의 수장님이자 디코최고 존잘남!그리고 옷 좋아함ㅋㅋㄹ');
   }
-
+  if(message.content == '피베') {
+    return message.reply('병ㅅ...(읍읍)');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
