@@ -41,8 +41,8 @@ client.on('message', (message) => {
   if(message.content == '!민수') {
     return message.reply('날 만든 찐다쉑');
   }
-  if(message.content == '!민수') {
-    return message.image('https://cdn.discordapp.com/attachments/761390715670364190/766540418388459540/3.png');
+  if(message.content == '!야짤') {
+    return message.img('https://cdn.discordapp.com/attachments/761390715670364190/766540418388459540/3.png');
   }
 
   if(message.content == '!김토끼 정보') {
