@@ -44,6 +44,9 @@ client.on('message', (message) => {
   if(message.content == '!원핵') {
     return message.reply('롤창ㅋㅋ들어와보면 항상 롤한다고 되있음');
   }
+  if(message.content == '!둠피스트') {
+    return message.reply('악 더러워!');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
