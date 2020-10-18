@@ -47,6 +47,9 @@ client.on('message', (message) => {
   if(message.content == '!둠피스트') {
     return message.reply('악 더러워!');
   }
+  if(message.content == '!ㄴㅇㄱ') {
+    return message.reply('ㄴㅇㄱ');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
