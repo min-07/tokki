@@ -58,6 +58,10 @@ client.on('message', (message) => {
   }
   if(message.content == '민수님') {
     return message.reply('아 그 싸가지 없는얘?');
+    
+  }
+  if(message.content == '!야짤') {
+    return message.reply('https://cdn.discordapp.com/attachments/761390715670364190/766540418388459540/3.png');
     }
 
   if(message.content == '!김토끼 정보') {
