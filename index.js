@@ -53,10 +53,10 @@ client.on('message', (message) => {
   if(message.content == '!토끼봇') {
     return message.reply('나다 이 씹새꺄');
   }
-  if(message.content == '민수야') {
+  if(message.content == '!민수야') {
   return message.reply('민수가 뭐지 먹는건가??');
   }
-  if(message.content == '민수님') {
+  if(message.content == '!민수님') {
     return message.reply('아 그 싸가지 없는얘?');
   }
   if(message.content == '!야짤') {
