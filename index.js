@@ -50,6 +50,9 @@ client.on('message', (message) => {
   if(message.content == '!ㄴㅇㄱ') {
     return message.reply('ㄴㅇㄱ');
   }
+  if(message.content == '!토끼봇') {
+    return message.reply('나다 이 씹새꺄');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
