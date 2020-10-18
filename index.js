@@ -54,7 +54,7 @@ client.on('message', (message) => {
     return message.reply('나다 이 씹새꺄');
   }
   if(message.content == '민수야') {
-  return message.reply('민수가 뭐지 먹는건가?');
+  return message.reply('민수가 뭐지 먹는건가??');
   }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
