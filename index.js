@@ -56,6 +56,10 @@ client.on('message', (message) => {
   if(message.content == '민수야') {
   return message.reply('민수가 뭐지 먹는건가??');
   }
+  if(message.content == '민수님') {
+    return message.reply('아 그 싸가지 없는얘?');
+    }
+
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
