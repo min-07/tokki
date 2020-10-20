@@ -74,6 +74,9 @@ client.on('message', (message) => {
   if(message.content == '!전적이') {
     return message.reply('사기꾼 쉑');
   }
+  if(message.content == '!끝말잇기') {
+    return message.reply('오...나한테 덤빈다고? 그럼 나부터 하지...해질녘!');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
