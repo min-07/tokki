@@ -77,6 +77,15 @@ client.on('message', (message) => {
   if(message.content == '!끝말잇기') {
     return message.reply('오...나한테 덤빈다고? 그럼 나부터 하지...해질녘!');
   }
+  if(message.content == '!토끼봇 가입해') {
+    message.channel.send('가입');
+  }
+  if(message.content == '!토끼봇 동의해') {
+    message.channel.send('동의');
+  }
+  if(message.content == '!토끼봇 도박 300') {
+    message.channel.send('!ㄷㅂ 300');
+  }
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
