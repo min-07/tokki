@@ -78,7 +78,7 @@ client.on('message', (message) => {
     return message.reply('오...나한테 덤빈다고? 그럼 나부터 하지...해질녘!');
   }
   if(message.content == '!토끼봇 가입해') {
-    message.channel.send('가입');
+    message.channel.send('!가입');
   }
   if(message.content == '!토끼봇 동의해') {
     message.channel.send('동의');
