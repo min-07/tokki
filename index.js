@@ -51,7 +51,7 @@ client.on('message', (message) => {
     return message.reply('ㄴㅇㄱ');
   }
   if(message.content == '!토끼봇') {
-    return message.reply('나다 이 씹새꺄');
+    return message.reply('나다');
   }
   if(message.content == '!민수야') {
   return message.reply('민수가 뭐지 먹는건가??');
@@ -59,12 +59,7 @@ client.on('message', (message) => {
   if(message.content == '!민수님') {
     return message.reply('아 그 싸가지 없는얘?');
   }
-  if(message.content == '!야짤') {
-    return message.reply('https://cdn.discordapp.com/attachments/761390715670364190/766540418388459540/3.png');
-  }
-  if(message.content == '사랑해') {
-    return message.reply('ㅈㄹ');
-  }
+  
   if(message.content == '!김토끼 얼굴') {
     return message.reply('https://media.discordapp.net/attachments/761390715670364190/767287432843886622/8.PNG');
   }
@@ -89,20 +84,7 @@ client.on('message', (message) => {
   if(message.content == '!김토끼 정보') {
     let img = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
     let embed = new Discord.RichEmbed()
-      .setTitle('타이틀')
-      .setURL('http://www.naver.com')
-      .setAuthor('14민수', img, 'http://www.naver.com')
-      .setThumbnail(img)
-      .addBlankField()
-      .addField('김토끼 나이', '17세')
-      .addField('싫어하는것', '조르기,구걸,도배', true)
-      .addField('좋아하는것', '옷', true)
       
-      .addField('주면 좋아하는거', '거의다')
-      .addBlankField()
-      .setTimestamp()
-      .setFooter('14민수가 만듬', img)
-
     message.channel.send(embed)
   } else if(message.content == 'help') {
     let helpImg = 'https://media.discordapp.net/attachments/745482814987698290/762501940143325204/20201005_113013.jpg';
